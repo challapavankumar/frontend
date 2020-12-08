@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static%}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.box{
+width:420px;
+border:15px solid;
+border-radius: 30px 20px;
+
+border-bottom-color:#FF1493;
+border-left-color:#FF1493;
+border-top-color:#FF4500;
+border-right-color:#FF4500;
+}
+.box2{
+ background-color: lightgrey;
+
+    width: 360px;
+            border: 3px solid transparent;
+            border-image: linear-gradient(to right, green, lightgreen);
+            border-image-slice: 1;
+            padding:20px;
+            left:10px;
+            right:10px;
+            margin:10px;
+
+            }
+
+.material-icons.md-18 { font-size: 58px; }
+.material-icons.md-8 { font-size: 20px; }
+</style>
+<body>
+{% include 'std/navbar.html' %}
+<div class="container">
+    <div class="row">
+
+
+            <div class="col-md-4">
+
+                <h1 class="margin-top=10px">Clarify Your doubts in your languages</h1>
+               <div class="download">
+
+             <button type="button" class="btn btn-danger" style="text-align:center;margin:2%;padding:1%; border-radius:24px;background-color:#f31010;"><i class="material-icons md-8" style="text-align:center;">arrow_downward</i>Clarify your doubts now!</button>
+
+
+
+</div>
+
+
+
+        </div>
+         <div class="col-md-6 mb-3">
+                    <div class="box">
+                      <div class="box2">
+                          <video width="300" controls>
+                              <source src="mov_bbb.mp4" type="video/mp4">
+                              <source src="mov_bbb.ogg" type="video/ogg">
+
+                            </video>
+                      </div>
+
+
+                   </div>
+             </div>
+
+ <div class="container" >
+     <div class="row" >
+         <div class="col-md-12" style="margin-top:4%;">
+             <div class="col-md-2" >
+                     <img src="{% static 'images/books.jfif' %}" alt="sorry">
+             </div>
+             <div class="col-md-1" >
+                     <center style="text-align:center;">
+                         <h4>
+                         40000+
+                         doubts cleared</h4></center>
+             </div>
+             <div class="col-md-2">
+                     <img src="{% static 'images/state.png' %}" alt="sorry">
+
+             </div>
+             <div class="col-md-1">
+                     <center><h4>20+ states board</h4></center>
+             </div>
+
+             <div class="col-md-2"  >
+                     <img src="{% static 'images/downloads.jfif' %}"  style="width:200px;height:50%;" alt="sorry">
+
+             </div>
+             <div class="col-md-1">
+                     <center><h4>1,000,000+ vedios lecture</h4></center>
+             </div>
+
+             <div class="col-md-2">
+                     <img src="{% static 'images/imgess.jfif' %}"  alt="sorry">
+             </div>
+             <div class="col-md-1">
+                 1,000,000+ vedios lecture
+             </div>
+
+
+         </div>
+     </div>
+ </div>
+
+
+
+<!--    <h1>solve your doubts faster</h1>-->
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style="font-size:50px;"><strong>solve your doubts <span style="color:rgb(0,0,205)">faster.</span></strong></h1>
+        </div>
+
+            <div class="col-md-6 mb-3" >
+
+
+                <h2>Acessable everywhere</h2>
+               <p>access to quality education anytime anywhere</p>
+
+
+
+                <h2>1 million+ vedios</h2>
+               <p>unlimited access to vedio solution</p>
+            </div>
+        <div class="col-md-6">
+            <img src="{% static 'images/student.jfif' %}" alt="error" style="text-align:right;">
+        </div>
+    </div>
+    <div class="row">
+        <h1 style="text-align:center; color:#0000CD;font-size:50px;"><strong>How It Works?</strong></h1>
+    </div>
+    <div class="col-md-3">
+        <div class="img">
+            <img src="{% static 'images/doubt.png' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;border:2px solid rgb(0,191,255);" alt="error">
+
+            <h2><strong>Have a Doubt?</strong></h2>
+
+        </div>
+
+    </div>
+     <div class="col-sm-1">
+        <center> <i class="material-icons md-18" style="text-align:center;">chevron_right</i></center>
+
+    </div>
+         <div class="col-md-3">
+            <div class="img">
+                <img src="{% static 'images/upload.jfif' %}" style="border-radius:80%; height:100px;width:100px;overflow: hidden;border:2px solid rgb(0,191,255);" alt="error">
+                &nbsp;
+                 <h2><strong>Type your Question</strong></h2>
+                <p>Or</p>
+                <p>Upload an Images</p>
+            </div>
+
+
+
+
+        </div>
+    <div class="col-sm-1">
+        <center> <i class="material-icons md-18" style="text-align:center;">chevron_right</i></center>
+
+    </div>
+     <div class="col-md-3">
+        <div class="img">
+            <img src="{% static 'images/images.jfif' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;" alt="error">
+
+            <h2>Get your Solution!</h2>
+        </div>
+
+    </div>
+
+<div class="row">
+    <div class="col-md-12">
+         <center>
+             <button type="button" class="btn btn-danger" style="text-align:center;margin:2%;padding:1%; border-radius:24px;background-color:#f31010;">Clarify your doubts now!</button>
+         </center>
+
+    </div>
+</div>
+
+<!--    <h1>live classs</h1>-->
+         <div class="row">
+       <div class="col-md-12">
+           <div class="card-text">
+               <h1 style="text-align:center;font-size:50px;color:#0000CD;"><strong>Live Classes</strong></h1>
+
+           </div>
+       </div>
+       <div class="col-md-6 mb-3">
+                    <div class="box">
+                      <div class="box2">
+                          <img src="{% static 'images/sIrish@.jpg'%}" style="width:30%;height:20%;">
+                      </div>
+
+
+                   </div>
+             </div>
+       <div class="col-md-6 mb-3">
+           <div class="content-head">
+               <h3>Acessable everywhere</h3>
+               <p>access to quality education anytime anywhere</p>
+               <h3>Expert Teachers</h3>
+               <p>unlimited access to vedio solution</p>
+               <h2>Interactive Sessions</h2>
+               <p>small groups for maximum student-teacher intraction</p>
+           </div>
+       </div>
+
+
+    </div>
+     <center>
+         <h1 style="color:#00008B;">FIRST&nbsp;CLASS&nbsp;HERE!</h1>
+             <button type="button" class="btn btn-danger" style="text-align:center;margin:0%;padding:1%; background-color:#f31010;">Book a class now</button>
+         </center>
+
+
+<!--    <h1>jee mains and advance preparation</h1>-->
+        <div class="row">
+       <div class="col-md-12">
+           <div class="card-text">
+               <h1 style="text-align:center;font-size:50px;"><strong><span style="color:rgb(0,0,205);">JEE</span> Mains&Advanced Preparation</strong></h1>
+
+           </div>
+       </div>
+       <div class="col-md-6 mb-3">
+                    <div class="box">
+                      <div class="box2">
+                          <img src="{% static 'images/sIrish@.jpg'%}" style="width:30%;height:20%;">
+                      </div>
+
+
+                   </div>
+             </div>
+       <div class="col-md-6 mb-3">
+           <div class="content-head">
+               <h1>neet vedios available</h1>
+               <h1>the JEE (Mains) exams for engineering aspirants are conducted in April while NEET is conducted for medical aspirants in May.</h1>
+           </div>
+       </div>
+
+
+    </div>
+     <center>
+             <button type="button" class="btn btn-danger" style="text-align:center;margin:2%;padding:1%; background-color:#f31010;">Preapare for jee now</button>
+         </center>
+
+
+<!--    <h1>neet preaparation realted</h1>-->
+    <div class="row">
+       <div class="col-md-12">
+           <div class="card-text">
+               <h1 style="text-align:center;font-size:50px;"><strong><span style="color:rgb(0,0,205);">NEET</span> Preparation</strong></h1>
+
+           </div>
+       </div>
+       <div class="col-md-6 mb-3">
+                    <div class="box">
+                      <div class="box2">
+                          <img src="{% static 'images/sIrish@.jpg'%}" style="width:30%;height:20%;">
+                      </div>
+
+
+                   </div>
+             </div>
+       <div class="col-md-6 mb-3">
+           <div class="content-head">
+               <h1><p>Neet 2021 vedios available in this site</p></h1>
+           </div>
+       </div>
+
+
+    </div>
+     <center>
+             <button type="button" class="btn btn-danger" style="text-align:center;margin:2%;padding:1%; background-color:#f31010;">Preapare for jee now</button>
+         </center>
+
+
+    <div class="row">
+        <div class="col-md-12">
+             <h1 style="text-align:center; color:#00008B; font-size:50px;"><strong> Explore the subjects with us!</strong></h1>
+
+        </div>
+        <div class="col-sm-3">
+            <div class="card"  style="width:18rem;height:18rem; margin:13%;">
+
+                 <img src="{% static 'images/img.jfif' %}" class="card-img-top" alt="..." style="height:object-fit;" >
+
+              <div class="card-body">
+
+
+                <p class="card-text" style="text-align:center;margin:5%">Maths</p>
+              </div>
+            </div>
+        </div>
+         <div class="col-sm-3" style="padding:2px;">
+            <div class="card"  style="width:18rem;height:18rem; margin:13%;" >
+
+                 <img src="{% static 'images/download.jfif' %}" class="card-img-top" alt="..." style="height:253px; " >
+
+              <div class="card-body">
+
+
+                <p class="card-text" style="text-align:center;margin:5%">Physics</p>
+              </div>
+            </div>
+        </div>
+         <div class="col-sm-3">
+            <div class="card"  style="width:18rem;height:18rem; margin:13%;">
+
+                 <img src="{% static 'images/cheistry.jfif' %}" class="card-img-top" alt="..." style="height:253px;" >
+
+              <div class="card-body">
+
+
+                <p class="card-text" style="text-align:center;margin:5%">Chemistry</p>
+              </div>
+            </div>
+        </div>
+         <div class="col-sm-3">
+            <div class="card"  style="width:18rem;height:18rem; margin:13%;">
+
+                 <img src="{% static 'images/biology.jfif' %}" class="card-img-top" alt="..." style="height:253px;" >
+
+              <div class="card-body">
+
+
+                <p class="card-text" style="text-align:center;margin:5%">Biology</p>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>
+ <div class="row" style="margin:10%;">
+        <div class="col-md-12">
+             <h1 style="text-align:center; font-size:50px;"><strong><span style="color:#00008B">Free access</span> to 5000+ books </strong></h1>
+           <div class="card-content">
+               <h3>Get access to virtual library of 5000+ text books and reference books of various stateboards and competitive exams.</h3>
+           </div>
+            <div class="col-sm-2">
+                <div class="card" >
+
+                     <img src="{% static 'images/hcverma.jpg' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Hc Verma</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/ncert.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">NCERT</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/Kcsenha.jpg' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Kc Sinha</p>
+                      </div>
+                </div>
+            </div>
+      <div class="col-sm-2">
+                <div class="card" >
+
+                     <img src="{% static 'images/errorles.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Errorles</p>
+                      </div>
+                </div>
+            </div>
+             <div class="  col-sm-3">
+                <div class="card">
+
+                     <img src="{% static 'images/tatahill.jpg' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Tata McGraw Hill</p>
+                      </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/sharma.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Rd Sharma</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/challa.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Challa's</p>
+                      </div>
+                </div>
+            </div>
+      <div class="col-sm-2">
+                <div class="card" >
+
+                     <img src="{% static 'images/drawing.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Drawing</p>
+                      </div>
+                </div>
+            </div>
+             <div class="  col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/leaf.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">chowdary</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card" style="border:1px solid #FFEFD5;">
+
+                     <img src="{% static 'images/abcuschild.jpg' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Maths</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+
+ <div class="row" style="margin:10%;">
+        <div class="col-md-12">
+             <h1 style="text-align:center; font-size:50px;"><strong><span style="color:#00008B">Free access</span> to 5000+ books </strong></h1>
+           <div class="card-content">
+               <h3>Get access to virtual library of 5000+ text books and reference books of various stateboards and competitive exams.</h3>
+           </div>
+
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/maharastra.png' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%"><b>Maharastra</b></p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/punjab.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%"><b>Punjab</b></p>
+                      </div>
+                </div>
+            </div>
+      <div class="col-sm-2">
+                <div class="card" >
+
+                     <img src="{% static 'images/andra.png' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%"><b>Andra Pradesh</b></p>
+                      </div>
+                </div>
+            </div>
+             <div class="  col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/west.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%"><b>West Bengal</b></p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/utter.png' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%"><b>Uttar Pradesh</b></p>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/kerala.png' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Kerala</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/rajasthan.jfif' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Rajasthan</p>
+                      </div>
+                </div>
+            </div>
+      <div class="col-sm-2">
+                <div class="card" >
+
+                     <img src="{% static 'images/gujarat.png' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Gujarat</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card">
+
+                     <img src="{% static 'images/tamilnadu.webp' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Tamil Nadu</p>
+                      </div>
+                </div>
+            </div>
+             <div class="col-sm-2">
+                <div class="card" style="border:1px solid #FFEFD5;">
+
+                     <img src="{% static 'images/mp.jpg' %}" class="card-img-top" alt="..." style="height:253px;width:100%;" >
+
+                      <div class="card-body">
+
+
+                        <p class="card-text" style="text-align:center;margin:5%">Madya Pradesh</p>
+                      </div>
+                </div>
+            </div>
+ </div>
+     <div class="container" >
+         <div class="row">
+                <div class="col-md-12">
+                    <div class="header">
+                   <h1 style="text-align:center; font-size:50px;"><strong>Meet our export tutors </strong></h1>
+
+                      </div>
+                        <div class="card mb-2" style="margin:10px; padding:10px;">
+
+                                <div class="col-md-2">
+                                   <img src="{% static 'images/einstein.jfif' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;">
+                                </div>
+                                <div class="col-md-4">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Albert Einstein</h5>
+                                            <p class="card-text">Life is like riding a bicycle. To keep your balance you must keep moving.</p>
+                                            <p class="card-text"><samp> German</samp></p>
+                                          </div>
+                                </div>
+
+                        </div>
+                      <div class="card mb-2">
+
+                                <div class="col-md-2">
+                                   <img src="{% static 'images/einstein.jfif' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;">
+                                </div>
+                                <div class="col-md-4">
+                                          <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                          </div>
+                                </div>
+
+                        </div>
+             </div>
+                 <div class="row">
+                <div class="col-md-12">
+
+                        <div class="card mb-2" style="margin:10px; padding:10px;">
+
+                                <div class="col-md-2">
+                                   <img src="{% static 'images/einstein.jfif' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;">
+                                </div>
+                                <div class="col-md-3">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Albert Einstein</h5>
+                                            <p class="card-text">Life is like riding a bicycle. To keep your balance you must keep moving.</p>
+                                            <p class="card-text"><samp> German</samp></p>
+                                          </div>
+                                </div>
+
+                        </div>
+                      <div class="card mb-2">
+                          <div class="col-md-2">
+                                   <img src="{% static 'images/einstein.jfif' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;">
+                          </div>
+                                <div class="col-md-2">
+                                          <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text"> This content is a little bit longer.</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                          </div>
+                                </div>
+
+                        </div>
+             </div>
+     </div>
+
+
+
+ </div>
+         <div class="row">
+             <div class="col-md-12">
+                 <h1 style="text-align:center;"><strong>see what our students have to say</strong></h1>
+
+             </div>
+             <div class="col-md-6 mb-3">
+                    <div class="box">
+                      <div class="box2">
+                          <video width="300" controls>
+                              <source src="mov_bbb.mp4" type="video/mp4">
+                              <source src="mov_bbb.ogg" type="video/ogg">
+
+                            </video>
+                      </div>
+
+
+                   </div>
+             </div>
+               <div class="card mb-2 " style="margin-top:15%;">
+                          <div class="col-md-2">
+                                   <img src="{% static 'images/einstein.jfif' %}" style="border-radius:100%; height:100px;width:100px;overflow: hidden;">
+                          </div>
+                                <div class="col-md-2">
+                                          <div class="card-body">
+                                            <h5 class="card-title"></h5>
+                                            <p class="card-text"> This content is a little bit longer.</p>
+
+                                          </div>
+                                </div>
+
+                        </div>
+
+         </div>
+         <center>
+             <button type="button" class="btn btn-danger" style="text-align:center;margin:2%;padding:1%; background-color:#f31010;">Download the app for free</button>
+         </center>
+
+
+     </div>
+
+
+
+
+</body>
+</html>
